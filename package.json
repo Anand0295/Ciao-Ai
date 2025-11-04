@@ -1,0 +1,22 @@
+{
+  "name": "ciao-ai",
+  "version": "1.0.0",
+  "description": "Native AI-powered code review assistant",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node src/index.js",
+    "install-hooks": "node src/hooks/installer.js"
+  },
+  "keywords": ["code-review", "ai", "git", "static-analysis"],
+  "author": "Anand",
+  "license": "MIT",
+  "dependencies": {
+    "simple-git": "^3.20.0",
+    "openai": "^4.20.0",
+    "chalk": "^4.1.2",
+    "commander": "^11.1.0",
+    "glob": "^10.3.10"
+  }
+}
